@@ -37,7 +37,10 @@ Table at the end of Segment 1
 
 Type   | Name     | Value
 ------ | -------- | -----
-       |          |
+ integer|first |100
+ integer|second |2450
+ float|third |100.0
+ string|fourth |"550.0"
 */
 
 /*
@@ -45,7 +48,10 @@ Table at the end of Segment 2
 
 Type   | Name     | Value
 ------ | -------- | -----
-       |          |
+integer|first|5000
+integer|second|2500
+float|third|24.5
+string|fourth|"22222222222"
 */
 
 /*
@@ -53,5 +59,8 @@ Table at the end of Segment 3
 
 Type   | Name     | Value
 ------ | -------- | -----
-       |          |
+integer|first|0
+integer|second|2500
+float|third|0
+string|fourth|""
 */
