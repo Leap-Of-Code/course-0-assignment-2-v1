@@ -9,7 +9,7 @@ int main() {
 
   float cost_of_shorts = 21.5;
   int num_shorts = 12;
-  float shorts_value = cost_oF_shorts * num_shorts;
+  float shorts_value = cost_of_shorts * num_shorts;
 
   float cost_of_shirts = 10.0;
   int num_shirts = 22;
