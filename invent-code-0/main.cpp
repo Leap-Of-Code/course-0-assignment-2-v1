@@ -38,6 +38,10 @@ Table at the end of Segment 1
 Type   | Name     | Value
 ------ | -------- | -----
        |          |
+int      first      100
+int      second     2450
+float    third      100.0
+string   fouth      550.0
 */
 
 /*
@@ -46,6 +50,11 @@ Table at the end of Segment 2
 Type   | Name     | Value
 ------ | -------- | -----
        |          |
+int     first      5000
+int     second     2500
+float   third      25
+string  fourth     22222222222
+
 */
 
 /*
@@ -54,4 +63,8 @@ Table at the end of Segment 3
 Type   | Name     | Value
 ------ | -------- | -----
        |          |
+  int   first      0
+  int   second     2500
+float   third      0
+string  fourth     
 */
