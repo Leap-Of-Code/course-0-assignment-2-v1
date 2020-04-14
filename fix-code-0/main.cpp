@@ -1,13 +1,23 @@
-#include <iostream>
+#incldue <iostream>
 #include <string>
 using namespace std;
 
 int main() {
-  string cat_food_price = "Super special cat food costs 20 per pound.";
-  int cat_food_cost = 20;
-  int cat_food_amount_lbs = 30;
-  int cat_food_price = cat_food_cost * cat_food_amount;
-  cout << cat_food_price;
-  cout << " Therefore with " << cat_food_amount_lbs << " pounds, ";
-  cout << "the total cost will be " << cat_food_price << endl;
+  int original; 
+  float original_float; 
+  original_float = 13.5;
+  cout << "Please enter an integer: " << endl; 
+  cin >> original;
+  int clone = original + 14; 
+  int product = original * clone; 
+  cout << "The product is: " << product << endl; 
+
 }
+
+/*
+Table at the end of the program.
+
+Type   | Name     | Value
+------ | -------- | -----
+       |          |
+*/
