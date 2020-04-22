@@ -22,10 +22,10 @@ Table at the end of the program.
 
 Type   | Name           | Value
 ------ | --------       | -----
-int    | original       | 5
+int    | original       | original 
 float  | original_float | 13.5
-int    | clone          | 19
-int    | product        | 95
+int    | clone          | original + 14
+int    | product        | original * (original + 14)
 
 */
 
