@@ -3,11 +3,24 @@
 using namespace std;
 
 int main() {
-  string cat_food_price = "Super special cat food costs 20 per pound.";
-  int cat_food_cost = 20;
-  int cat_food_amount_lbs = 30;
-  int cat_food_price = cat_food_cost * cat_food_amount;
-  cout << cat_food_price;
-  cout << " Therefore with " << cat_food_amount_lbs << " pounds, ";
-  cout << "the total cost will be " << cat_food_price << endl;
+  int original = 0;
+
+  float original_float ; 
+  original_float = 13.5; 
+  std:: cout << "Please enter an integer "; 
+  std::cin >> original;
+  std::cout << endl;  
+  const int clone_original = original + 14; 
+  const int product = original * clone_original;  
+  std::cout << "The product is " << product << endl; 
 }
+
+/*
+Table at the end of the program.
+
+Type   | Name     | Value
+------ | -------- | -----
+int     main      |
+float  original_float   
+ 
+*/
