@@ -35,9 +35,12 @@ int main() {
 /*
 Table at the end of Segment 1
 
-Type   | Name     | Value
------- | -------- | -----
-       |          |
+Type    | Name     | Value
+------  | -------- | -----
+ int    |  first   |  100
+ int    |  second  |  2450
+ float  |  third   |  100.0
+ string |  fourth  |  550.0
 */
 
 /*
@@ -45,13 +48,19 @@ Table at the end of Segment 2
 
 Type   | Name     | Value
 ------ | -------- | -----
-       |          |
-*/
+ int   |  first   | 5000      
+ int   |  second  | 2500
+ int   |  third   | 25         
+ strng |  fourth  | 2222222222 
+ */
 
 /*
 Table at the end of Segment 3
 
 Type   | Name     | Value
 ------ | -------- | -----
-       |          |
+ int   |  first   |  0
+ int   |  second  |  2500
+ int   |  third   |  0
+ strng |  fourth  |  ""
 */
