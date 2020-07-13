@@ -8,30 +8,36 @@ int main() {
   int second = 2450;
   float third = 100.0;
   string fourth = "550.0";
-  cout << "First number is: " << first << endl;
-  cout << "Second number is: " << second << endl;
-  cout << "Third number is: " << third << endl;
-  cout << "Fourth number is: " << fourth << endl;
+  cout << "Type" << "\t Name" << "\t Value" << endl;
+  cout << "Integer"<< "\t first" << "\t  " <<  first  << endl;
+  cout << "Integer"<< "\t second" << "\t  " <<  second << endl;
+  cout << "Float"<< "\t third" << "\t  " <<  third << endl;
+  cout << "String"<< "\t fourth" << "\t  " <<  fourth << endl;
+  cout << "\n";
 
 /////////////// Segment 2 ///////////////////////
   first = first + second * 2;
   second = second + 50;
   third = second / third;
   fourth = "22222222222";
-  cout << "First number is: " << first << endl;
-  cout << "Second number is: " << second << endl;
-  cout << "Third number is: " << third << endl;
-  cout << "Fourth number is: " << fourth << endl;
+  cout << "Type" << "\t Name" << "\t Value" << endl;
+  cout << "Integer"<< "\t first" << "\t  " <<  first  << endl;
+  cout << "Integer"<< "\t second" << "\t  " <<  second << endl;
+  cout << "Float"<< "\t third" << "\t  " <<  third << endl;
+  cout << "String"<< "\t fourth" << "\t  " <<  fourth << endl;
+  cout << "\n";
 
 /////////////// Segment 3 ///////////////////////
   first = second / first;
   third = first / third;
   fourth = "";
-  cout << "First number is: " << first << endl;
-  cout << "Second number is: " << second << endl;
-  cout << "Third number is: " << third << endl;
-  cout << "Fourth number is: " << fourth << endl;
-}
+  cout << "Type" << "\t Name" << "\t Value" << endl;
+  cout << "Integer"<< "\t first" << "\t  " <<  first  << endl;
+  cout << "Integer"<< "\t second" << "\t  " <<  second << endl;
+  cout << "Float"<< "\t third" << "\t  " <<  third << endl;
+  cout << "String"<< "\t fourth" << "\t  " <<  fourth << endl;
+  cout << "\n";
+}  
 /*
 Table at the end of Segment 1
 
